@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Перша лабораторна робота з веб-розробки">
     <meta name="keywords" content="лаборатрна робота, університет, веб-розробка, HTML">
+    <base target="_blank">
     <title>LB1</title>
 </head>
 
@@ -15,6 +16,17 @@
             <td>
                 <h1>Hi</h1>
                 Hello, World!
+                <br><br>
+                HTML - HyperText Markup Language
+                <br><br>
+                <a href="#table" target="_self">table</a>
+                <br><br>
+                <div><strong>Lorem ipsum <sup>dolor</sup> sit amet consectetur adipisicing elit. Suscipit explicabo quidem iste! Cumque cum
+                    nobis ipsa harum <small>quae</small> similique sit quas facere? <u>Maxime</u> explicabo, expedita obcaecati esse tenetur
+                    quibusdam ratione?</strong></div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id explicabo ducimus qui optio eum vero,
+                    quo recusandae omnis culpa quia placeat, quos architecto nihil velit voluptates exercitationem
+                    dolorem obcaecati ad!</p>
                 <ul>
                     <li>КІУКІ-23-1</li>
                     <li>КІУКІ-23-2</li>
@@ -57,10 +69,29 @@
                     <dt>VR</dt>
                     <dd>Veb-rozrobka</dd>
                 </dl>
+                <select name="examplelist" id="examplelist">
+                    <option value="candy">candy</option>
+                    <option value="icecream" selected>icecream</option>
+                    <option value="chocolate">chocolate</option>
+                </select>
             </td>
             <td>
-                <img src="https://nure.ua/wp-content/uploads/Main_Img_department/3d-tour-277x315.jpg" alt="Virtual 3D-tour to NURE">
-                <table border="1">
+                <img src="images/image.png" alt="infotmation about central proccessor from program"
+                    usemap="#information">
+                <map name="information" id="information">
+                    <area shape="rect" coords="17,50,143,175" href="https://nure.ua" alt="nure site">
+                    <area shape="rect" coords="17,500,1180,795" href="https://dl.nure.ua" alt="nure courses">
+                </map>
+                <br><br>
+                <a href="#" target="_self">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt
+                    aperiam vel, dignissimos repudiandae animi? Pariatur unde sit maiores fuga eaque similique! Possimus
+                    expedita iusto iure voluptatibus? Soluta, odio dolorum.</a>
+                <br><br>
+                <a href="https://www.youtube.com">YouTube!</a>
+                <br><br>
+                <a href="documents/Каплоух_Денис_КІУКІ-23-1_ЛБ1.pdf">KPproLB1</a>
+                <br><br><br>
+                <table border="1" id="table">
                     <thead>
                         <tr>
                             <th rowspan="2">FIO</th>
@@ -89,6 +120,7 @@
                         </tr>
                     </tbody>
                 </table>
+                <!--<a name="table"></a> -->
             </td>
         </tr>
     </table>
