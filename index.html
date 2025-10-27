@@ -11,120 +11,179 @@
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td>
-                <h1>Hi</h1>
-                Hello, World!
-                <br><br>
-                HTML - HyperText Markup Language
-                <br><br>
-                <a href="#table" target="_self">table</a>
-                <br><br>
-                <div><strong>Lorem ipsum <sup>dolor</sup> sit amet consectetur adipisicing elit. Suscipit explicabo quidem iste! Cumque cum
-                    nobis ipsa harum <small>quae</small> similique sit quas facere? <u>Maxime</u> explicabo, expedita obcaecati esse tenetur
-                    quibusdam ratione?</strong></div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id explicabo ducimus qui optio eum vero,
-                    quo recusandae omnis culpa quia placeat, quos architecto nihil velit voluptates exercitationem
-                    dolorem obcaecati ad!</p>
-                <ul>
-                    <li>КІУКІ-23-1</li>
-                    <li>КІУКІ-23-2</li>
-                    <li>КІУКІ-23-3</li>
-                    <li>КІУКІ-23-4</li>
-                    <li>КІУКІ-23-5</li>
-                </ul>
-
-                <ol start="0">
-                    <li>КІУКІ-23-1</li>
-                    <li>КІУКІ-23-2</li>
-                    <li>КІУКІ-23-3</li>
-                    <li>КІУКІ-23-4</li>
-                    <li>КІУКІ-23-5</li>
-                </ol>
-
-                <ul>
-                    <li>EOM
-                        <ul>
-                            <li>КІУКІ-23-1
-                                <ul>
-                                    <li>Kaploukh Denys</li>
-                                </ul>
-                            </li>
-                            <li>КІУКІ-23-2</li>
-                            <li>КІУКІ-23-3</li>
-                            <li>КІУКІ-23-4</li>
-                            <li>КІУКІ-23-5</li>
-                        </ul>
-                    </li>
-                    <li>APOT
-                        <ul>
-                            <li>КІУКІ-23-1</li>
-                            <li>КІУКІ-23-2</li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <dl>
-                    <dt>VR</dt>
-                    <dd>Veb-rozrobka</dd>
-                </dl>
-                <select name="examplelist" id="examplelist">
-                    <option value="candy">candy</option>
-                    <option value="icecream" selected>icecream</option>
-                    <option value="chocolate">chocolate</option>
-                </select>
-            </td>
-            <td>
-                <img src="images/image.png" alt="infotmation about central proccessor from program"
-                    usemap="#information">
-                <map name="information" id="information">
-                    <area shape="rect" coords="17,50,143,175" href="https://nure.ua" alt="nure site">
-                    <area shape="rect" coords="17,500,1180,795" href="https://dl.nure.ua" alt="nure courses">
-                </map>
-                <br><br>
-                <a href="#" target="_self">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt
-                    aperiam vel, dignissimos repudiandae animi? Pariatur unde sit maiores fuga eaque similique! Possimus
-                    expedita iusto iure voluptatibus? Soluta, odio dolorum.</a>
-                <br><br>
-                <a href="https://www.youtube.com">YouTube!</a>
-                <br><br>
-                <a href="documents/Каплоух_Денис_КІУКІ-23-1_ЛБ1.pdf">KPproLB1</a>
-                <br><br><br>
-                <table border="1" id="table">
-                    <thead>
-                        <tr>
-                            <th rowspan="2">FIO</th>
-                            <th colspan="2">Score</th>
-                        </tr>
-                        <tr>
-                            <th>VR</th>
-                            <th>AK</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Kaploukh</td>
-                            <td>60</td>
-                            <td>60</td>
-                        </tr>
-                        <tr>
-                            <td>Ivanov</td>
-                            <td>21</td>
-                            <td>23</td>
-                        </tr>
-                        <tr>
-                            <td>Petrov</td>
-                            <td>100</td>
-                            <td>81</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <!--<a name="table"></a> -->
-            </td>
-        </tr>
-    </table>
-
+    <h1>Лабораторна робота №1</h1>
+    <h2>З дисципліни "Веб-розробка"</h2>
+    Виконав:
+    <br>
+    студент групи КІУІКІ-23-1
+    <br>
+    Каплоух Денис Олександрович
+    <br><br>
+    <h3>Виконані завдання:</h3>
+    <ol>
+        <li><a href="#Text" target="_self">Оформлений текст</a></li>
+        <li><a href="#List" target="_self">Список</a></li>
+        <li><a href="#Table" target="_self">Таблиця</a></li>
+        <li><a href="#Form" target="_self">Форма з керуючими елементами</a></li>
+        <li><a href="#Image" target="_self">Посилання та зображення</a></li>
+    </ol>
+    <h3>Виконання:</h3>
+    <div id="Text">
+        1. Оформлений текст:
+        <br><br>
+        Загальна кількість перестановок з <i>n</i>
+        <br>
+        елементів дорівнює <strong>добутку всіх
+            <br>
+            цілих чисел</strong> від <i>1</i> до <i>n</i>:
+        <br>
+        P<sub>n</sub> = 1&bull;2&bull;3&bull;...&bull;(n-2)&bull;(n-1)&bull;n.
+    </div>
+    <div id="List">
+        <br><br>
+        2. Список:
+        <br><br>
+        <dl>
+            <dt>ВР</dt>
+            <dd>Веб-розробка</dd>
+            <dt>МодС</dt>
+            <dd>Моделювання систем</dd>
+            <dt>ТПрЗ</dt>
+            <dd>Тестування програмного забезпечення</dd>
+            <dt>АК</dt>
+            <dd>Архітектура комп'ютерів</dd>
+            <dt>КПпро</dt>
+            <dd>Крос-платформне пограмування</dd>
+            <dt>СПЗ</dt>
+            <dd>Системне програмне забезпечення</dd>
+            <dt>Ксх</dt>
+            <dd>Комп'ютерна схемотехніка</dd>
+            <dt>ФВ</dt>
+            <dd>Фізичне виховання та спрорт</dd>
+            <dt>Soft skills</dt>
+            <dd>Soft skills: соціально-психологічні навички</dd>
+        </dl>
+    </div>
+    <div id="Table">
+        <br><br>
+        3. Таблиця:
+        <br><br>
+        <table border="1">
+            <caption>Фрагмент періодичної системи хімічних елементів</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">
+                        ПЕРІОДИ
+                    </th>
+                    <th colspan="4">
+                        ГРУПИ ЕЛЕМЕНТІВ
+                    </th>
+                </tr>
+                <tr>
+                    <th>Перша група</th>
+                    <th>Друга група</th>
+                    <th>Третя група</th>
+                    <th>...</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>H</td>
+                    <td></td>
+                    <td></td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Li</td>
+                    <td>Be</td>
+                    <td>B</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Na</td>
+                    <td>Mg</td>
+                    <td>Al</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">...</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="Form">
+        <br><br>
+        4. Форма з керуючими елементами:
+        <br><br>
+        <form>
+            <table>
+                <caption>Форма для введення інформації про комплектуючі ПК</caption>
+                <tr>
+                    <td>
+                        <label for="proccesor">Процесор:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="proccesor" name="proccesor">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="videocard">Відеокарта:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="videocard" name="videocard">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="motherboard">Материнська плата:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="motherboard" name="motherboard">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ram">Оперативна пам'ять:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="ram" name="ram">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Відправити">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="Image">
+        <br><br>
+        5. Посилання та зображення:
+        <br><br>
+        <img src="images/NURE.jpg" alt="Харківський національний університет радіоелектроніки" usemap="#nuremap">
+        <map name="nuremap" id="nuremap">
+            <area shape="poly" coords="1,1,165,145,155,330,1,340" href="https://dec.nure.ua" alt="Сайт кафедри ЕОМ">
+            <area shape="rect" coords="205,100,505,325" href="https://nure.ua" alt="Сайт ХНУРЕ">
+            <area shape="poly" coords="535,140,725,1,725,320,535,320" href="https://cist.nure.ua/ias/app/tt/f?p=778:2:346009650485430::NO:::" alt="Сайт розкладу">
+        </map>
+    </div>
+    <br><br>
+    <a href="#" target="_self">Повернутися до початоку сторінки</a>
 </body>
 
 </html>
